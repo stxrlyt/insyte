@@ -1,0 +1,136 @@
+.hero{
+    height: 512px;
+}
+
+.herobck{
+    object-fit: cover;
+    background-position: center;
+    height: 512px;
+    width: 100%;
+    top: -1px;
+    position: absolute;
+    filter: blur(10px);
+    z-index: -2;
+}
+
+.herocont{
+    display: flex;
+    max-width: 1240px;
+    height: auto;
+    align-items: center;
+    margin: 32px auto;
+}
+
+.heroart{
+    border-radius: 8px;
+    background-color: var(--tertiary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    gap:8px
+}
+
+.heroart h1{
+    color: var(--text-white);
+    text-align: center;
+}
+
+.heroart p{
+    color: var(--text-white);
+    text-align: center;
+}
+
+.ytvid{
+    margin-right: 32px;
+}
+
+.ytvid iframe{
+    width: 600px;
+    height: 340px;
+}
+
+.join{
+    margin-top: -64px;
+    text-align: center;
+    z-index: 3;
+}
+
+.join h4{
+    color: var(--text-black);
+}
+
+.dlnow{
+    display: inline;
+    margin: 8px;
+}
+
+.store{
+    margin-top: 16px;
+    height: 64px;
+}
+
+.allallall{
+    margin-top: 64px;
+    text-align: center;
+    background-color: var(--secondary);
+}
+
+.allallall h5{
+    padding: 16px;
+}
+
+.dlnow{
+    display: inline;
+    margin: 8px;
+}
+
+.blks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+}
+
+.blk{
+    padding: 8px;
+    background-color: var(--text-white);
+    border-radius: 16px;
+    width: 280px;
+    text-align: center;
+    margin:16px
+}
+
+.blk img{
+   width: 120px;
+   height:120px; 
+}
+
+footer{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--tertiary);
+    color: var(--white);
+}
+
+footer img{
+    width:128px
+}
+
+.listing{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footxt{
+    color: var(--text-white);
+}
+
+li.item{
+    margin-top: 4px;
+}
