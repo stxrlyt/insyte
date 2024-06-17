@@ -1,136 +1,150 @@
-.hero{
-    height: 512px;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Insyte</title>
+        <link rel="stylesheet" href="css/const.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/nav.less">
+    </head>
+    <body>
 
-.herobck{
-    object-fit: cover;
-    background-position: center;
-    height: 512px;
-    width: 100%;
-    top: -1px;
-    position: absolute;
-    filter: blur(10px);
-    z-index: -2;
-}
+        <!-- Navigation Bar start -->
+        <header>
+            <a href="index.html"><image href="" class="logo-nav" src="./assets/var1.png"></image></a>
+            <nav>
+                <ul class="nav-items">
+                    <li class="nav-item semi-bold"><a href="#">About us</a></li>
+                    <li class="nav-item semi-bold"><a href="#">Careers</a></li>
+                    <li class="nav-item semi-bold"><a href="#">Help</a></li>
+                    <div class="clickbar"></div>
+                </ul>
+                <a href="#" class="download bold">Download now!</a>
+            </nav>
+        </header>
+        <!-- Navigation Bar end -->
 
-.herocont{
-    display: flex;
-    max-width: 1240px;
-    height: auto;
-    align-items: center;
-    margin: 32px auto;
-}
+        <!-- Hero Start -->
+        <div class="hero">
+            <img class="herobck" src="./assets/herobck.jpg">
+            <section class="herocont">
+                <article class="heroart">
+                    <p class="text-white">Easing your way in malls</p>
+                    <h1>Welcome to Insyte!</h1>
+                    <p class="text-white">Insyte provides a detailed view of the malls around you.</p>
+                </article>
+                <div class="ytvid">
+                    <iframe src="https://www.youtube.com/watch?v=v5VcKTHpKJU&t=354s"></iframe> 
+                </div>
+            </section>
+        </div>
+        <!-- Hero End -->
 
-.heroart{
-    border-radius: 8px;
-    background-color: var(--tertiary);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 32px;
-    margin-right: 32px;
-    gap:8px
-}
+        <!-- Join Start -->
+        <div class="join">
+            <div class="ajakan">
+                <h4>Join more than 2 people in this journey!</h4>
+            </div>
+            <div class="dlnow">
+                <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1"><img class="store" src="./assets/playstore.png" alt="Play Store"></a>
+                <a href="https://www.apple.com/id/app-store/"><img class="store" src="./assets/appstore.png" alt="App Store"></a>
+            </div>
+        </div>
+        <!-- Join End -->
 
-.heroart h1{
-    color: var(--text-white);
-    text-align: center;
-}
+        <!-- All the things you can do here Start -->
+        <div class="allallall">
+            <h5>All the things you can do here</h5>
+            <div class="blks">
+                <div class="blk">
+                    <img src="./assets/mall.png">
+                    <p class="bold">Search for malls in your city</p>
+                </div>
+                <div class="blk">
+                    <img src="./assets/maps.png">
+                    <p class="bold">Discover each mall's insides</p>
+                </div>
+                <div class="blk">
+                    <img src="./assets/store.png">
+                    <p class="bold">Find information on all their stores</p>
+                </div>
+            </div>
+        </div>
+        <!-- All the things you can do here End -->
 
-.heroart p{
-    color: var(--text-white);
-    text-align: center;
-}
+        <!-- VMV Start -->
+        <div class="vision">
+            <h5>Our vision, mission and views</h5>
+            <div class="blks2">
+                <div class="blk2">
+                    <p class="bold">Vision</p><br>
+                    <p>“To revolutionize the shopping mall experience by providing comprehensive, immersive, and accessible insights into mall interiors worldwide.”</p>
+                </div>
+                <div class="blk2">
+                    <p class="bold">Mission</p><br>
+                    <p>"Transforming the facade of the shopping experience by providing an innovative insight into malls worldwide, easing users in planning their visits."</p>
+                </div>
+                <div class="blk2">
+                    <p class="bold">Value</p><br>
+                    <p>Innovation: We continuously try to perfect our imaging results and mobile applications through innovations in our technology.</p><br>
+                    <p>Perfect customer service: We prioritize in perfecting our users’ experiences so they can be as seamless as possible.</p><br>
+                    <p>Quality: We are dedicated to reaching the peak quality of our product, which will be useful for all of our stakeholders.</p><br>
+                    <p>Continuous improvement: Growth has been an important aspect of our product, through always seeking ways to improve them based on user reviews and technological advancements.</p><br>
+                        
+                </div>
+            </div>
+        </div>
+        <!-- VMV End -->
 
-.ytvid{
-    margin-right: 32px;
-}
+        <!-- Team Start -->
+        <div class="team">
+            <h5>Our team</h5>
+            <div class="blks">
+                <div class="blk">
+                    <img src="./assets/gweh.jpg">
+                    <p>Kireina Kalila Putri</p>
+                    <p class="bold">Founder and CEO</p>
+                </div>
+                <div class="blk">
+                    <img src="./assets/aiko.jpg">
+                    <p>Aiko Yunita Rasuda</p>
+                    <p class="bold">CFO (Chief Financial Officer)</p>
+                </div>
+                <div class="blk">
+                    <img src="./assets/radit.jpg">
+                    <p>Radithya Farrel Fauzan</p>
+                    <p class="bold">CTO (Chief Technology Officer)</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
 
-.ytvid iframe{
-    width: 600px;
-    height: 340px;
-}
+        <!-- BMC Start -->
+        <div class="bmc">
+            <h5>Our business model canvas</h5>
+            <img src="./assets/bmc.png">
+        </div>
+        <!-- BMC End -->
 
-.join{
-    margin-top: -64px;
-    text-align: center;
-    z-index: 3;
-}
-
-.join h4{
-    color: var(--text-black);
-}
-
-.dlnow{
-    display: inline;
-    margin: 8px;
-}
-
-.store{
-    margin-top: 16px;
-    height: 64px;
-}
-
-.allallall{
-    margin-top: 64px;
-    text-align: center;
-    background-color: var(--secondary);
-}
-
-.allallall h5{
-    padding: 16px;
-}
-
-.dlnow{
-    display: inline;
-    margin: 8px;
-}
-
-.blks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 16px;
-}
-
-.blk{
-    padding: 8px;
-    background-color: var(--text-white);
-    border-radius: 16px;
-    width: 280px;
-    text-align: center;
-    margin:16px
-}
-
-.blk img{
-   width: 120px;
-   height:120px; 
-}
-
-footer{
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--tertiary);
-    color: var(--white);
-}
-
-footer img{
-    width:128px
-}
-
-.listing{
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.footxt{
-    color: var(--text-white);
-}
-
-li.item{
-    margin-top: 4px;
-}
+        <!-- Footer -->
+        <footer>
+            <a href="./index.html"><img src="./assets/var1.png"></a>
+            <div class="footsec">
+                <p class="footxt">Navigation</p>
+                <ul class="listing">
+                    <li class="item">About Us</li>
+                    <li class="item">Careers</li>
+                    <li class="item">Help</li>
+                    <li class="item">Download now</li>
+                </ul>
+                <p class="fontsml">Made by us, 2024</p>
+            </div>
+            <div class="footsec">
+                <p class="footxt">Join us</p>
+                <ul class="listing">
+                    <li class="item">For curators</li>
+                    <li class="item">For guides</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
